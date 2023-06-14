@@ -1,6 +1,8 @@
 import numpy as np
 from fastai import *
 from fastai.vision import *
+from matplotlib.patches import Patch
+import matplotlib.patheffects as patheffects
 
 
 def create_anchors(sizes, ratios, scales, flatten=True):
