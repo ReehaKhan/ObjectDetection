@@ -1,6 +1,8 @@
 from fastai import *
 from fastai.vision import *
 from torch.autograd import Variable
+from matplotlib.patches import Patch
+import matplotlib.patheffects as patheffects
 
 from object_detection_fastai.helper.object_detection_helper import *
 
