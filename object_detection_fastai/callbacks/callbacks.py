@@ -1,4 +1,6 @@
-from fastai.callbacks import *
+from fastai.callback.core import Callback
+from fastai.callback.progress import ProgressCallback
+from fastai.callback.training import *
 
 
 from object_detection_fastai.helper.object_detection_helper import *
